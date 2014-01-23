@@ -1,4 +1,4 @@
 node-user
 =========
 
-`npmi user`
+`npm i user`
