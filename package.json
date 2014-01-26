@@ -1,10 +1,21 @@
 {
   "name": "user",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "users use your site",
-  "main": "lib.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/mocha/bin/_mocha tests/"
+  },
+  "dependencies": {
+    "passport": "",
+    "passport-local": "",
+    "password-hash": ""
+  },
+  "devDependencies": {
+    "chai": "",
+    "mocha": "",
+    "express": "",
+    "mongoose": ""
   },
   "repository": "https://github.com/eyy/user.git",
   "author": "eyy",
